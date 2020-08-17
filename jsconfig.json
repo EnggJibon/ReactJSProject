@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+      "jsx": "react",
+      "target": "ES6",
+      "baseUrl": "./",
+      "paths": {
+        "karte/*": ["src/karte/*"]
+      }
+    }
+  }

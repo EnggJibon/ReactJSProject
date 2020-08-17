@@ -1,0 +1,61 @@
+{
+  "name": "framework7-react-app-template",
+  "version": "3.0.0",
+  "private": true,
+  "dependencies": {
+    "@zxing/library": "^0.15.1",
+    "exif-js": "^2.3.0",
+    "framework7": "^3.6.7",
+    "framework7-icons": "^0.9.1",
+    "framework7-react": "^3.6.7",
+    "jsqr": "^1.1.1",
+    "material-design-icons": "^3.0.1",
+    "moment": "^2.24.0",
+    "query-string": "^6.1.0",
+    "react": "^16.4.1",
+    "react-document-title": "^2.0.3",
+    "react-dom": "^16.4.1",
+    "react-modal": "^3.8.1",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.0.0-next.66cc7a90",
+    "redux": "^4.0.0",
+    "redux-logger": "^3.0.6",
+    "redux-persist": "^5.10.0",
+    "sp-plugin-sample": "file:../sp-plugins/sp-plugin-sample",
+    "superagent": "^3.8.3",
+    "universal-cookie": "^3.0.4"
+  },
+  "homepage": ".",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "lint": "eslint src/**/*.js src/**/*.jsx",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "copy-fonts": "cpy node_modules/framework7-icons/fonts/*.* src/fonts && cpy node_modules/material-design-icons/iconfont/*.{eot,ttf,woff,woff2} src/fonts",
+    "postinstall": "npm run copy-fonts",
+    "preinstall": "npm install ../sp-plugins/sp-plugin-sample"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.6",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "cpy-cli": "^2.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-react": "^7.11.1"
+  },
+  "browserslist": {
+    "development": [
+      "last 2 chrome versions",
+      "last 2 firefox versions",
+      "last 2 edge versions"
+    ],
+    "production": [
+      ">1%",
+      "last 4 versions",
+      "Firefox ESR",
+      "not ie < 11"
+    ]
+  }
+}

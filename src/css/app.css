@@ -1,0 +1,156 @@
+/* Your app styles here */
+* {
+    text-transform: none !important;
+}
+
+.errorMessage {
+    color: red
+}
+
+input[type="text"]:disabled {
+    background-color: #eee;
+    cursor: not-allowed;
+}
+
+.smallMargin {
+    margin-top: 8px !important;
+    margin-bottom: 8px !important;
+}
+
+.md .block-title {
+    margin-top: 16px
+}
+
+.ios .block-title {
+    margin-top: 15px
+}
+
+.md .data-table thead td, .md .data-table thead th {
+    height: 36px; /* 56px */
+}
+
+.md .data-table tbody td {
+    height: 36px; /* 48px; */
+}
+
+.ios .data-table td, .ios .data-table th {
+    height: 36px; /* 44px */
+}
+.list .custom-list-item{
+    padding-right:20%;
+    position:relative;
+}
+.list .btn-absolute{
+    position:absolute;
+    right:-20%;
+    bottom:10px;
+    width:20%;
+}
+.contain{
+    object-fit: contain;
+    z-index : 14501;
+    position: relative;
+}
+
+.md .normalFont {
+    font-size: 14px;
+}
+
+.ios .normalFont {
+    font-size: 14px;
+}
+
+.noFlexShrink {
+    flex: 0 0 100%;
+}
+
+.gridBorder {
+    border: 1px solid #ddd;
+}
+
+.toolbar-bottom-list{
+    position: fixed;
+    margin: auto !important;
+    bottom: 0;
+    z-index: 999;
+    width: 100%;
+}
+
+.margin-bottom84.list {
+    font-size: 14px;
+    margin-bottom: 84px
+}
+
+.margin-bottom99.list {
+    font-size: 14px;
+    margin-bottom: 185px
+}
+
+.md .my-padding .item-content{
+    padding:0;
+}
+.md .my-padding .item-inner{
+    padding:0;
+}
+
+.delbackCol .item-input-wrap:after{
+    background-color:#fff; 
+}
+
+.backgroundWhite{
+    background-color:#fff; 
+}
+.fontWeight400{
+    font-weight: 400
+}
+
+.popover.picker-popover.modal-in{
+    left:40% !important;
+}
+.popover.picker-popover.modal-out{
+    left:40% !important;
+}
+.popover.calendar-popover.modal-in{
+    left: 40% !important;
+} 
+.popover.calendar-popover.modal-out{
+    left: 40% !important;
+} 
+input[type=number]{
+    width: 100%;
+    padding-right: 2em;
+    position:relative;
+    text-align: right;
+}	
+input[type=file]{
+    position: absolute;
+    left: 25%; 
+    top: 0%; 
+    opacity: 0; 
+    cursor: pointer;
+}	
+html,body {
+    overscroll-behavior: none;
+}
+.margin-top-0 {
+    margin-top: 0% !important;
+    margin-bottom: 0% !important;
+}
+.margin-left-info {
+    margin-left: 1.5em !important;
+}
+.container-mold_part {
+    width: 100%;
+}
+.md .icon.color-yellow {
+    color: #e8ba00 !important;
+}
+.container-help-mold_part.button {
+    line-height: normal !important;
+    height: auto !important;
+    min-width: 24px !important;
+    padding: 0 !important;
+}
+.filelist {
+    list-style-type: none;
+}
